@@ -29,10 +29,9 @@ const AboutPage = () => {
         {/* <div className="mt-5 hidden lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2"> */}
         <div className='mt-5 flex flex-col items-center'>
           <img
-            src='assets/profile_pic.png'
+            src='src/assets/profile_pic.png'
             className='rounded-lg max-w-sm mt-5'
           />
-          {/* <div class="relative col-span-3 row-span-2 items-center rounded-2xl m-2 overflow-hidden hidden lg:flex flex-col"> */}
           <div class='flex items-center flex-col'>
             <div class='flex flex-col items-center gap-y-4 text-left w-8/12'>
               <h1 class='text-4xl font-semibold mt-10'>About me</h1>
