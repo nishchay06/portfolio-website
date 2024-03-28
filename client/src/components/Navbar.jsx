@@ -1,11 +1,20 @@
 import React from "react"
 import Marquee from "react-fast-marquee"
+import { useNavigate } from "react-router-dom"
 
-const Navbar = () => {
+import DropDown from "./Dropdown"
+
+const NavBar = () => {
+  const navigate = useNavigate()
   return (
     <div className='flex justify-between items-center w-full h-20 px-4 text-black bg-white'>
       <div>
-        <h1 className='text-1xl ml-2'>Nishchay</h1>
+        <h1
+          onClick={() => navigate("/")}
+          className='text-1xl ml-2 cursor-pointer'
+        >
+          Nishchay.
+        </h1>
       </div>
       <div className='w-96 hidden md:block'>
         <div className='font-normal text-base rfm-marquee-container bg-gray-50 text-black p-2 rounded-full cursor-pointer border border-transparent hover:border hover:border-gray-200'>
@@ -20,9 +29,11 @@ const Navbar = () => {
           </Marquee>
         </div>
       </div>
-      <div className='place-items-center'>dropdown</div>
+      <div className='place-items-center'>
+        <DropDown />
+      </div>
     </div>
   )
 }
 
-export default Navbar
+export default NavBar

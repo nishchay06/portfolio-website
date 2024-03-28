@@ -1,0 +1,32 @@
+@keyframes meteor {
+  0% {
+    transform: rotate(215deg) translateX(0);
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  to {
+    transform: rotate(215deg) translateX(-500px);
+    opacity: 0;
+  }
+}
+
+.meteor {
+  position: absolute;
+  animation: meteor linear infinite;
+}
+
+.meteor2 {
+  position: absolute;
+  animation: meteor linear infinite;
+  animation-delay: 1000ms;
+}
+
+.meteor3 {
+  position: absolute;
+  animation: meteor linear infinite;
+  animation-duration: 1s;
+}
