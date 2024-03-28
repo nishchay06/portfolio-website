@@ -160,7 +160,7 @@ const Skills = () => {
       <p className='text-4xl'>Skills</p>
       <div className='flex flex-wrap mt-4'>
         {skills.map((s) => (
-          <span class='w-100 mb-3 py-2 px-4 bg-gray-200 rounded-3xl mr-2 flex justify-between items-baseline text-2xl hover:scale-105 duration-300 cursor-pointer'>
+          <span className='w-100 mb-3 py-2 px-4 bg-gray-200 rounded-3xl mr-2 flex justify-between items-baseline text-2xl hover:scale-105 duration-300 cursor-pointer'>
             <span>{s.icon}</span>
             <span className='ml-1'>{s.name}</span>
           </span>

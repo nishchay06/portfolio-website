@@ -1,0 +1,23 @@
+@keyframes appearAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-appear1 {
+  animation: appearAnimation 1s ease-in-out;
+}
+
+.animate-appear2 {
+  animation: appearAnimation 1.4s ease-in-out;
+}
+
+.animate-appear3 {
+  animation: appearAnimation 1.8s ease-in-out;
+}

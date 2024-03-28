@@ -2,7 +2,7 @@ import Footer from "./Footer"
 
 const ExperiencePage = () => {
   return (
-    <div className='mt-16 flex flex-col items-center'>
+    <div className='mt-10 flex flex-col items-center'>
       <h1 className='text-5xl'>Internships</h1>
       <div className='flex flex-col mt-12'>
         <div className='w-full p-5 m-2 flex flex-col items-start bg-gray-50 rounded-3xl cursor-pointer hover:bg-gray-100 text-left'>

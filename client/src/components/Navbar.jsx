@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import Marquee from "react-fast-marquee"
 import { useNavigate } from "react-router-dom"
 
@@ -6,13 +6,15 @@ import DropDown from "./Dropdown"
 
 const NavBar = () => {
   const navigate = useNavigate()
+  const [showMenu, setShowMenu] = useState(false)
+  const handleClickLogo = () => {
+    navigate("/")
+    setShowMenu(false)
+  }
   return (
     <div className='flex justify-between items-center w-full h-20 px-4 text-black bg-white'>
       <div>
-        <h1
-          onClick={() => navigate("/")}
-          className='text-1xl ml-2 cursor-pointer'
-        >
+        <h1 onClick={handleClickLogo} className='text-1xl ml-2 cursor-pointer'>
           Nishchay.
         </h1>
       </div>
@@ -30,7 +32,7 @@ const NavBar = () => {
         </div>
       </div>
       <div className='place-items-center'>
-        <DropDown />
+        <DropDown showMenu={showMenu} setShowMenu={setShowMenu} />
       </div>
     </div>
   )

@@ -1,6 +1,8 @@
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa"
 import { SiLeetcode } from "react-icons/si"
 
+import "./home.css"
+
 const Home = () => {
   const senderEmail = "nishchay.mago1290@gmail.com"
 
@@ -10,23 +12,26 @@ const Home = () => {
   }
   return (
     <div className='mt-12'>
-      <div className='p-2 md:p-0 flex flex-col items-center'>
-        <img
-          src='src/assets/profile_pic.png'
-          className='w-40 h-40 rounded-full object-cover border-4 border-black'
-        />
-        <div className='flex flex-row items-center text-center text-5xl mt-12'>
+      <div className='p-2 md:p-0 flex flex-col items-center rounded-full'>
+        <div className='relative text-black items-start rounded-full bg-white shadow-lg shadow-sky-500'>
+          <div className='absolute rounded-full -inset-0 bg-gradient-to-r from-purple-600 to-pink-600 blur z-5' />
+          <img
+            src='src/assets/profile_pic.png'
+            className='relative z-10 w-60 h-60 rounded-full object-cover border-4 border-black'
+          />
+        </div>
+        <div className='flex flex-row items-center text-center text-5xl mt-12 animate-appear1'>
           <span className='ml-3'>Hi,</span>
           <span className='ml-3'>I'm</span>
           <span className='ml-3'>Nishchay</span>
           <span className='ml-3'>Mago!</span>
         </div>
-        <div className='flex flex-row items-center text-center text-5xl mt-4'>
+        <div className='flex flex-row items-center text-center text-5xl mt-4 animate-appear2'>
           <span className='ml-3'>I</span>
           <span className='ml-3'>love</span>
           <span className='ml-3'>creating</span>
         </div>
-        <div className='flex flex-row items-center text-center text-5xl mt-4'>
+        <div className='flex flex-row items-center text-center text-5xl mt-4 animate-appear3'>
           <span className='ml-3'>and</span>
           <span className='ml-3'>I</span>
           <span className='ml-3'>like</span>
