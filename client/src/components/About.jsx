@@ -45,7 +45,7 @@ const About = () => {
               </div>
             </div>
             <img
-              src='src/assets/profile_pic.png'
+              src='/profile_pic.png'
               className='rounded-lg max-w-sm ml-10 left-48'
             />
           </div>

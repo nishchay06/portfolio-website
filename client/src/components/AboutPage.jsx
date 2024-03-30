@@ -27,7 +27,7 @@ const AboutPage = () => {
       <div className='flex flex-col items-center'>
         <div className='mt-5 flex flex-col items-center'>
           <img
-            src='src/assets/profile_pic.png'
+            src='/profile_pic.png'
             className='rounded-lg max-w-sm mt-5'
           />
           <div class='flex items-center flex-col'>
