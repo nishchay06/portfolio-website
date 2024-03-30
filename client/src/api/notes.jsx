@@ -1,6 +1,6 @@
 // const HOST_URL = import.meta.env.VITE_API_HOME_URL
 
-const HOST_URL = "https://portfolio-website-server-nine.vercel.app/"
+const HOST_URL = "https://portfolio-website-server-nine.vercel.app"
 
 const defaultHeaders = {
   headers: {
