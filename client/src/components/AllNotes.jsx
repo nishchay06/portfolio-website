@@ -32,7 +32,7 @@ const AllNotes = () => {
       </div>
       <div className='flex flex-col items-center'>
         <div className='relative z-10 text-black flex flex-col items-center rounded-xl w-44 h-full bg-white r shadow-lg shadow-sky-500 mt-4'>
-          <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200'></div>
+          <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200' />
           <button
             onClick={() => navigate("/messages")}
             class='relative gradient-border px-4 py-4 rounded-xl justify-between bg-black hover:bg-white hover:text-black opacity-95 hover:opacity-100 text-white w-full text-base font-normal transform hover:scale-105 duration-300'

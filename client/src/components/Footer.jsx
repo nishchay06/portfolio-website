@@ -59,7 +59,6 @@ const Footer = () => {
           <SiLeetcode className='opacity-50 transition-opacity duration-200 ease-in-out hover:opacity-100' />
         </a>
       </ul>
-      {/* <div class="text-5xl my-10 cursor-pointer">⚡</div> */}
       <div className='text-sm font-normal flex mt-6'>
         <span>©2024 Copyright: Nishchay Mago</span>
       </div>

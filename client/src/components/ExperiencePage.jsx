@@ -7,48 +7,64 @@ const ExperiencePage = () => {
       <div className='flex flex-col mt-12'>
         <div className='w-full p-5 m-2 flex flex-col items-start bg-gray-50 rounded-3xl cursor-pointer hover:bg-gray-100 text-left'>
           <div className='w-full flex justify-between'>
-            <span className='text-xl'>Software Tester / IT Intern</span>
+            <span className='text-xl'>Software Developer Intern</span>
             <span className='text-lg opacity-50'>06/2023 ~ 08/2023</span>
           </div>
+          <span className='text-sm font-normal text-gray-500'>
+            Basys.ai (startup)
+          </span>
           <span className='text-base font-normal mt-4'>
-            Open source OS project contribution by reading and analyzing code
-            written in <span className='font-bold'>C++</span> and{" "}
-            <span className='font-bold'>python++</span> to test and identify
-            defects on developing operating system.
-            <br></br>
-            <br></br>
-            Performed data migration from{" "}
-            <span className='font-bold'>GitLab++</span> to{" "}
-            <span className='font-bold'>GitHub</span> using{" "}
-            <span className='font-bold'>Git Large File Storage (LFS)</span>.
-            <br></br>
-            <br></br>
-            Performed hardware compatibility testing for given OS – analyzed
-            specifications of computers using{" "}
-            <span className='font-bold'>Linux++</span> commands to test the
-            developing OS compatibility with the computer.
+            <span className='font-bold'>Developed automated solutions</span> to
+            streamline internal processes
+            <span className='font-bold'>
+              {" "}
+              resulting in increased productivity.{" "}
+            </span>
+            <br />
+            <br />
+            Worked on <span className='font-bold'>Web Development</span>,{" "}
+            <span className='font-bold'>Rest APIs</span>,{" and "}
+            <span className='font-bold'>Web Scraping</span>
+            <br />
+            <br />
+            <span className='font-bold'>
+              Conducted web scraping activities
+            </span>{" "}
+            to gather data from external sources,{" "}
+            <span className='font-bold'>
+              enabling data-driven decision-making
+            </span>{" "}
+            and <span className='font-bold'>improving business insights</span>.
           </span>
         </div>
         <div className='w-full p-5 m-2 mt-5 flex flex-col items-start bg-gray-50 rounded-3xl cursor-pointer hover:bg-gray-100 text-left'>
           <div className='w-full flex justify-between'>
-            <span className='text-xl'>Front-end Software Engineer</span>
-            <span className='text-lg opacity-50'>06/2022 ~ 09/2022</span>
+            <span className='text-xl'>AI Freelancer</span>
+            <span className='text-lg opacity-50'>01/2024 ~ 02/2024</span>
           </div>
+          <span className='text-sm font-normal text-gray-500'>Remotasks</span>
           <span className='text-base font-normal mt-4'>
-            Front end development in the RFID / IoT Records Management team:
-            created the main page and subsidiary pages from scratch using{" "}
-            <span className='font-bold'>React, Cytoscape JS</span>, and{" "}
-            <span className='font-bold'>Material UI</span> for a railroad
-            monitoring system, a B2B platform.
-            <br></br>
-            <br></br>
-            Integrated <span className='font-bold'>Axios</span> with the
-            application's state management system to handle data fetching and
-            updates seamlessly.
-            <br></br>
-            <br></br>
-            Utilized <span className='font-bold'>SASS</span> for design to
-            create an efficient and responsive UI.
+            <span className='font-bold'>Sourced, analyzed</span>, and{" "}
+            <span className='font-bold'>prepared data</span> to{" "}
+            <span className='font-bold'>train</span> and{" "}
+            <span className='font-bold'>improve AI models</span>.
+            <br />
+            <br />
+            Worked closely with clients'{" "}
+            <span className='font-bold'>AI development team</span>, focusing on{" "}
+            <span className='font-bold'>prompt creation</span>,{" "}
+            <span className='font-bold'>
+              Reinforcement Learning from Human Feedback (RLHF)
+            </span>
+            , and <span className='font-bold'>data validation</span> in the
+            realms of coding and math.
+            <br />
+            <br />
+            <span className='font-bold'>Collected, structured</span>, and{" "}
+            <span className='font-bold'>curated</span> large datasets for
+            training <span className='font-bold'>generative AI models</span>,
+            with a focus on <span className='font-bold'>coding</span> and{" "}
+            <span className='font-bold'>mathematics</span>.
           </span>
         </div>
       </div>
@@ -56,9 +72,10 @@ const ExperiencePage = () => {
       <div className='flex flex-col mt-12'>
         <div className='w-full p-5 m-2 flex flex-col items-start bg-gray-50 rounded-3xl cursor-pointer hover:bg-gray-100 text-left'>
           <div className='w-full flex justify-between'>
-            <span className='text-xl'>Club President</span>
+            <span className='text-xl'>Club Web-Dev Lead</span>
             <span className='text-lg opacity-50'>08/2022 ~ 012/2022</span>
           </div>
+          <span className='text-sm font-normal text-gray-500'>NSUT, Delhi</span>
           <span className='text-base font-normal mt-4'>
             Organized weekly assemblies with 50+ club members to practice
             solving algorithm problems, had workshops with computer science
@@ -68,53 +85,19 @@ const ExperiencePage = () => {
         </div>
         <div className='w-full p-5 m-2 mt-5 flex flex-col items-start bg-gray-50 rounded-3xl cursor-pointer hover:bg-gray-100 text-left'>
           <div className='w-full flex justify-between'>
-            <span className='text-xl'>Teaching Assistant</span>
-            <span className='text-lg opacity-50'>06/2022 ~ 09/2022</span>
-          </div>
-          <span className='text-base font-normal mt-4'>
-            Assisted professor for computer science major class “Object Oriented
-            Programming”.
-            <br></br>
-            <br></br>
-            Held office hours (8.5 hours/week) - responded to inquiries and
-            supported students on class material.
-          </span>
-        </div>
-        <div className='w-full p-5 m-2 mt-5 flex flex-col items-start bg-gray-50 rounded-3xl cursor-pointer hover:bg-gray-100 text-left'>
-          <div className='w-full flex justify-between'>
             <div>
               <span className='text-xl mr-2'>Hackathon</span>
-              <span className='text-sm font-normal opacity-50'> 3rd place</span>
             </div>
             <span className='text-lg opacity-50'>05/2023</span>
           </div>
+          <span className='text-sm font-normal text-gray-500'>NSUT, Delhi</span>
           <span className='text-base font-normal mt-4'>
             Developed a web application with 3 other teammates that allows users
             to browse and sign up for short-term classes held by educators.
-            <br></br>
-            <br></br>
+            <br />
+            <br />
             Implemented the front-end using React and Material UI, and
             implemented the back-end using Node and MongoDB.
-          </span>
-        </div>
-        <div className='w-full p-5 m-2 mt-5 flex flex-col items-start bg-gray-50 rounded-3xl cursor-pointer hover:bg-gray-100 text-left'>
-          <div className='w-full flex justify-between'>
-            <div>
-              <span className='text-xl mr-2'>Hackathon</span>
-              <span className='text-sm font-normal opacity-50'> 3rd place</span>
-            </div>
-            <span className='text-lg opacity-50'>05/2022</span>
-          </div>
-          <span className='text-base font-normal mt-4'>
-            Formulated a business model and a product prototype with 3 other
-            teammates in 24 hours.
-            <br></br>
-            <br></br>
-            Developed an application that keeps track of the amount of the
-            amount of garbage recycled to promote an eco-friendly environment.
-            <br></br>
-            <br></br>
-            Utilized React, Node, and Material UI to implement the front-end.
           </span>
         </div>
       </div>

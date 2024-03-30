@@ -20,7 +20,7 @@ const Connect = () => {
             animationDuration: "4s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor2 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -31,7 +31,7 @@ const Connect = () => {
             animationDuration: "3s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor3 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -42,7 +42,7 @@ const Connect = () => {
             animationDuration: "2s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -53,7 +53,7 @@ const Connect = () => {
             animationDuration: "4s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor2 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -64,7 +64,7 @@ const Connect = () => {
             animationDuration: "4s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor3 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -75,7 +75,7 @@ const Connect = () => {
             animationDuration: "3s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -86,7 +86,7 @@ const Connect = () => {
             animationDuration: "5s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor2 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -97,7 +97,7 @@ const Connect = () => {
             animationDuration: "4s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor3 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -108,7 +108,7 @@ const Connect = () => {
             animationDuration: "4s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor3 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -119,7 +119,7 @@ const Connect = () => {
             animationDuration: "3s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
 
         <span
@@ -131,7 +131,7 @@ const Connect = () => {
             animationDuration: "5s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor2 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -142,7 +142,7 @@ const Connect = () => {
             animationDuration: "2s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor3 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -153,7 +153,7 @@ const Connect = () => {
             animationDuration: "4s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor3 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -164,7 +164,7 @@ const Connect = () => {
             animationDuration: "3s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor2 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -175,7 +175,7 @@ const Connect = () => {
             animationDuration: "2s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor3 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -186,7 +186,7 @@ const Connect = () => {
             animationDuration: "3s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor3 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -197,7 +197,7 @@ const Connect = () => {
             animationDuration: "4s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor2 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -208,7 +208,7 @@ const Connect = () => {
             animationDuration: "5s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <span
           className='pointer-events-none absolute left-1/2 top-1/2 h-0.5 w-0.5 rotate-[215deg] meteor3 rounded-[9999px] bg-gray-500 shadow-[0_0_0_1px_#ffffff10]'
@@ -219,7 +219,7 @@ const Connect = () => {
             animationDuration: "2s",
           }}
         >
-          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent'></div>
+          <div className='pointer-events-none absolute top-1/2 -z-10 h-[1px] w-[50px] -translate-y-1/2 bg-gradient-to-r from-gray-500 to-transparent' />
         </span>
         <div className='flex flex-col items-center'>
           <div className='text-2xl md:text-3xl lg:text-4xl xl:text-6xl mb-7'>
@@ -227,7 +227,7 @@ const Connect = () => {
           </div>
           <div className='flex justify-between w-5/12 mt-5'>
             <div className='relative z-10 text-black items-start rounded-xl w-38 bg-white r shadow-lg shadow-sky-500'>
-              <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200'></div>
+              <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200' />
               <button
                 onClick={handleComposeEmail}
                 className='relative gradient-border px-4 py-2 rounded-xl flex items-center bg-black hover:bg-white hover:text-black opacity-95 hover:opacity-100 text-white w-full text-base font-normal transform hover:scale-105 duration-300'
@@ -236,9 +236,9 @@ const Connect = () => {
               </button>
             </div>
             <div className='relative z-10 text-black items-start rounded-xl w-38 bg-white r shadow-lg shadow-sky-500'>
-              <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200'></div>
+              <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200' />
               <a
-                href='https://www.linkedin.com/in/nishchay-mago-94364a200//'
+                href='https://www.linkedin.com/in/nishchay-mago-94364a200/'
                 target='_blank'
                 className='relative gradient-border px-4 py-2 rounded-xl flex items-center bg-black hover:bg-white hover:text-black opacity-95 hover:opacity-100 text-white w-full text-base font-normal transform hover:scale-105 duration-300'
               >

@@ -9,7 +9,7 @@ const About = () => {
     const pdfUrl = "Nishchay_resume.pdf"
     const link = document.createElement("a")
     link.href = pdfUrl
-    link.download = "Nishchay_resume.pdf" // specify the filename
+    link.download = "Nishchay_resume.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -26,11 +26,12 @@ const About = () => {
             <div className='flex flex-col gap-y-4 text-left w-1/2'>
               <h1 className='text-4xl font-semibold'>About me</h1>
               <p className='text-base font-normal text-gray-500 mt-4'>
-                My name is Nishchay Mago, and I am a senior majoring in computer
-                science at Netaji Subhas University of Techhnology(NSUT). I want
-                to provide value to society through my knowledge and experience
-                in technology. I would also love to work on projects with you,
-                so please reach out to me if you need someone!
+                My name is Nishchay Mago, and I am a senior majoring in
+                Information Technology at Netaji Subhas University of
+                Techhnology (NSUT). I want to provide value to society through
+                my knowledge and experience in technology. I would also love to
+                work on projects with you, so please reach out to me if you need
+                someone!
               </p>
               <div className='relative z-10 text-black flex flex-col items-start rounded-xl w-36 bg-white r shadow-lg shadow-sky-500'>
                 <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200' />

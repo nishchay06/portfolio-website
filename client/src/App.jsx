@@ -10,6 +10,7 @@ import AllNotes from "./components/AllNotes"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 function App() {
+  document.title = "Nishchay Mago"
   return (
     <div className='text-3xl font-bold mx-auto max-w-5xl my-10 z-0'>
       <BrowserRouter>

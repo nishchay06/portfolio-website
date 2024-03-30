@@ -1,12 +1,12 @@
-import { createNoteAPI } from "../api/notes"
-import Footer from "./Footer"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { useNavigate } from "react-router-dom"
+
+import Footer from "./Footer"
+import { createNoteAPI } from "../api/notes"
 
 const MessagePage = () => {
   const navigate = useNavigate()
   const [successModal, setSuccessModal] = useState(false)
-  const [faileModal, setFailModal] = useState(false)
 
   const [formData, setFormData] = useState({
     name: "",
@@ -14,7 +14,6 @@ const MessagePage = () => {
     message: "",
   })
 
-  // Event handler for input changes
   const handleInputChange = (e) => {
     const { name, value } = e.target
     setFormData({
@@ -25,7 +24,6 @@ const MessagePage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    console.log("Form submitted:", formData)
     setFormData({
       name: "",
       position: "",
@@ -35,37 +33,13 @@ const MessagePage = () => {
     const result = await createNoteAPI(formData)
     if (result) {
       setSuccessModal(true)
-    } else {
-      setFailModal(true)
     }
   }
 
-  /* useEffect(() => {
-        setSuccessModal(successModal);
-        if (successModal) {
-            // Set a timeout to close the modal after the specified duration
-            const timeoutId = setTimeout(() => {
-                setSuccessModal(false);
-            }, 5000);
-            // Clear the timeout if the modal is closed manually before the timeout
-            return () => clearTimeout(timeoutId);
-        }
-    }, [successModal]); */
-
   return (
     <div>
-      {/* <div className="absolute w-full top-12 left-0 flex items-center justify-center">
-                <div
-                    className={`flex items-center z-10 max-w-sm px-5 py-3 rounded bg-green-500 text-white transition-all ${successModal
-                        ? 'opacity-100 transform -translate-y-130'
-                        : 'opacity-0 top-0 transform -translate-y-full'
-                        }`}
-                >
-                    <p className="text-white text-base">Success!</p>
-                </div>
-            </div> */}
       {successModal && (
-        <div className='fixed overlay bg-black opacity-50 w-screen h-screen top-0 left-0 z-20'></div>
+        <div className='fixed overlay bg-black opacity-50 w-screen h-screen top-0 left-0 z-20' />
       )}
       <div
         className={`flex items-center z-30 fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ${
@@ -125,7 +99,7 @@ const MessagePage = () => {
               onChange={handleInputChange}
               required
               className='block w-full mt-1 p-4 rounded-md shadow-sm focus:outline-none bg-gray-100 text-base font-normal z-0'
-            ></textarea>
+            />
             <span className='absolute px-2 py-1 rounded right-2 bottom-2 text-xs font-normal text-gray-500 bg-gray-100 z-10'>
               {formData.message.length}/300
             </span>

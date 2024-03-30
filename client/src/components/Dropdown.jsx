@@ -1,9 +1,8 @@
-import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io"
 
-const DropDown = ({showMenu, setShowMenu}) => {
+const DropDown = ({ showMenu, setShowMenu }) => {
   const navigate = useNavigate()
 
   const links = [
@@ -51,7 +50,7 @@ const DropDown = ({showMenu, setShowMenu}) => {
       {showMenu && (
         <div>
           <div className='absolute z-10 text-black top-14 right-0 flex flex-col items-start rounded-lg w-48 bg-white r shadow-lg shadow-sky-500'>
-            <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200'></div>
+            <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200' />
             <div className='relative w-full px-2 py-2 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex flex-col items-top justify-start'>
               {links.map((link, i) => (
                 <div
