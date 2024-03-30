@@ -1,6 +1,6 @@
 import Main from "./components/Main"
 import AboutPage from "./components/AboutPage"
-import NavBar from "./components/NavBar"
+// import NavBar from "./components/NavBar"
 import ExperiencePage from "./components/ExperiencePage"
 import ProjectsPage from "./components/ProjectsPage"
 import ScrollToTop from "./components/ScrollToTop"
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className='text-3xl font-bold mx-auto max-w-5xl my-10 z-0'>
       <BrowserRouter>
-        <NavBar />
+        {/* <NavBar /> */}
         <ScrollToTop />
         <div className='app'>
           <Routes>
