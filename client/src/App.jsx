@@ -1,6 +1,6 @@
 import Main from "./components/Main"
-import NavBar from "./components/NavBar"
 import AboutPage from "./components/AboutPage"
+import NavBar from "./components/NavBar"
 import ExperiencePage from "./components/ExperiencePage"
 import ProjectsPage from "./components/ProjectsPage"
 import ScrollToTop from "./components/ScrollToTop"
