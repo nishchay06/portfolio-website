@@ -1,5 +1,6 @@
 const API_BASE_URL = import.meta.env.VITE_API_HOME_URL
-const HOME_URL = import.meta.env.VITE_API_ROOT
+
+const HOST_URL = "https://portfolio-website-server-nine.vercel.app/"
 
 const defaultHeaders = {
   headers: {
@@ -8,7 +9,7 @@ const defaultHeaders = {
 }
 
 export const getAllNotesAPI = () => {
-  const res = fetch(`${API_BASE_URL}/api/notes`, {
+  const res = fetch(`${HOST_URL}/api/notes`, {
     ...defaultHeaders,
     method: "GET",
   })
@@ -16,7 +17,7 @@ export const getAllNotesAPI = () => {
 }
 
 export const createNoteAPI = (note) => {
-  return fetch(`${API_BASE_URL}/api/createNotes`, {
+  return fetch(`${HOST_URL}/api/createNotes`, {
     ...defaultHeaders,
     method: "POST",
     body: JSON.stringify(note),
