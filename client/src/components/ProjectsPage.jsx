@@ -3,9 +3,6 @@ import Footer from "./Footer"
 import { FaBowlRice } from "react-icons/fa6"
 import { IoShapes } from "react-icons/io5"
 import { FaPiggyBank } from "react-icons/fa"
-import { FaEarthAmericas } from "react-icons/fa6"
-import { IoIosJournal } from "react-icons/io"
-import { CiChat1 } from "react-icons/ci"
 
 const ProjectsPage = () => {
   return (
@@ -102,7 +99,7 @@ const ProjectsPage = () => {
               role='img'
               className='go2599496350 w-full flex justify-between'
             >
-              <IoShapes />
+              <FaPiggyBank />
               <span className='flex items-center mr-4'>
                 <div className='h-3 w-3 bg-red-400 rounded-full mr-1' />
                 <p className='text-base font-normal'>Live</p>
