@@ -17,13 +17,16 @@ db.once("open", () => {
 })
 
 app.use(bodyParser.json())
-app.use(cors(
-  {
-    origin: ["https://portfolio-website-server-nine.vercel.app/"],
-    methods: ["POST", "GET"],
-    credentials: true
-}
-));
+// app.use(cors(
+//   {
+//     origin: ["https://portfolio-website-server-nine.vercel.app/"],
+//     methods: ["POST", "GET"],
+//     credentials: true
+// }
+// ));
+
+app.use(cors())
+
 app.use("/api", noteRoutes)
 
 app.get("/", (req, res) => {
