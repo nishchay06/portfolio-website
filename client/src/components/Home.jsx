@@ -16,7 +16,7 @@ const Home = () => {
         <div className='relative text-black items-start rounded-full bg-white shadow-lg shadow-sky-500'>
           <div className='absolute rounded-full -inset-0 bg-gradient-to-r from-purple-600 to-pink-600 blur z-5' />
           <img
-            src='/profile_pic.png'
+            src='/about_pic.png'
             className='relative z-10 w-60 h-60 rounded-full object-cover border-4 border-black'
           />
         </div>
