@@ -29,7 +29,7 @@ const Home = () => {
         <div className='flex flex-row items-center text-center text-5xl mt-4 animate-appear2'>
           <span className='ml-3'>I</span>
           <span className='ml-3'>love</span>
-          <span className='ml-3'>creating</span>
+          <span className='ml-3'>creating,</span>
         </div>
         <div className='flex flex-row items-center text-center text-5xl mt-4 animate-appear3'>
           <span className='ml-3'>and</span>
