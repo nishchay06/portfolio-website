@@ -37,8 +37,9 @@ const About = () => {
                 <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200' />
                 <button
                   onClick={handleDownloadResume}
-                  className='relative gradient-border px-4 py-2 rounded-xl flex items-center justify-between bg-black hover:bg-white hover:text-black opacity-95 hover:opacity-100 text-white w-full text-base font-normal transform hover:scale-105 duration-300'
-                >
+                  disabled
+                  className="relative gradient-border px-4 py-2 rounded-xl flex items-center justify-between bg-black text-white opacity-50 cursor-not-allowed w-full text-base font-normal"
+                  >
                   <FaDownload />
                   My resume
                 </button>
