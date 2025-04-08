@@ -44,7 +44,8 @@ const AboutPage = () => {
                   <div className='absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200' />
                   <button
                     onClick={handleDownloadResume}
-                    class='relative gradient-border px-4 py-2 rounded-xl flex items-center justify-between bg-black hover:bg-white hover:text-black opacity-95 hover:opacity-100 text-white w-full text-base font-normal transform hover:scale-105 duration-300'
+                    disabled
+                    class='relative gradient-border px-4 py-2 rounded-xl flex items-center opacity-50 cursor-not-allowed justify-between bg-black hover:bg-white hover:text-black opacity-95 hover:opacity-100 text-white w-full text-base font-normal transform hover:scale-105 duration-300'
                   >
                     <FaDownload />
                     My resume
